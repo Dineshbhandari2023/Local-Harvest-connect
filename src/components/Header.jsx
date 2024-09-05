@@ -1,14 +1,13 @@
 import React from "react";
-import logo1 from "../../public/images/logo1.png";
+import logo1 from "../../public/images/logo.png";
 
 const Header = () => {
   return (
-    <div className="flex h-14 w-full space-x-11 bg-[#7BAB71] shadow-green-300">
+    <div className="flex fixed z-10 h-14 w-full space-x-11 bg-[#7BAB71] shadow-green-300">
       <div className="flex ">
-        <img src={logo1} className="h-[46px] w-[76px] pt-2 pl-3" alt="logo" />
-        <h1 className="p-2 font-bold text-2xl tracking-wider text-gray-800">
-          <span className="text-3xl font-bold font-serif">Local</span> Harvest
-          Hub
+        <img src={logo1} className="h-14 w-20 pl-3" alt="logo" />
+        <h1 className="p-2 font-bold text-2xl font-serif tracking-wider text-gray-800">
+          <span className="text-3xl font-bold ">Local</span> Harvest Hub
         </h1>
       </div>
       <div className="flex justify-between">
